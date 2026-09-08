@@ -14,5 +14,8 @@ class DbConnect:
         except Exception as e:
             return None
 
+class Employee_manager(DbConnect):
+    pass
+
 connection_instance=DbConnect()
 connection_instance.get_connection()
